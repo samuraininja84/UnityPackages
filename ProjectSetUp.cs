@@ -13,11 +13,20 @@ using static UnityEditor.AssetDatabase;
 public class ProjectSetUp : MonoBehaviour
 {
     [MenuItem("Tools/Setup/Import Essential Assets")]
-    public static void ImportEssentials()
+    public static void ImportEssentialAssets()
     {
-        Assets.ImportAsset("Selection History.unitypackage", "Staggart Creations/Editor ExtensionsUtilities");
-        Assets.ImportAsset("Better Hierarchy.unitypackage", "Toaster Head/Editor ExtensionsUtilities");
-        Assets.ImportAsset("Odin Inspector and Serializer.unitypackage", "Sirenix/Editor ExtensionsSystem");
+        Assets.ImportEssentialAsset("Selection History.unitypackage", "Staggart Creations/Editor ExtensionsUtilities");
+        Assets.ImportEssentialAsset("Better Hierarchy.unitypackage", "Toaster Head/Editor ExtensionsUtilities");
+        Assets.ImportEssentialAsset("Odin Inspector and Serializer.unitypackage", "Sirenix/Editor ExtensionsSystem");
+    }
+
+    [MenuItem("Tools/Setup/Import Custom Assets")]
+    public static void ImportCustomAssets()
+    {
+        //Import from a custom folder
+        Assets.ImportEssentialAsset("EditorShortcuts.unitypackage", "C:/Users/aaron/OneDrive/Documents/GitHub/UnityPackages/Custom");
+        Assets.ImportEssentialAsset("OptionalStruct.unitypackage", "C:/Users/aaron/OneDrive/Documents/GitHub/UnityPackages/Custom");
+        Assets.ImportEssentialAsset("VariableReferences.unitypackage", "C:/Users/aaron/OneDrive/Documents/GitHub/UnityPackages/Custom");
     }
 
     [MenuItem("Tools/Setup/Install Essential Packages")]
@@ -27,6 +36,7 @@ public class ProjectSetUp : MonoBehaviour
             "git+https://gitlab.hotreload.net/root/hot-reload-releases.git#1.12.12",
             "git+https://github.com/starikcetin/Eflatun.SceneReference.git#4.1.1",
             "git+https://github.com/KyleBanks/scene-ref-attribute",
+            "git+https://github.com/uvivagabond/unity-bulk-rename",
             "com.unity.inputsystem"
         });
     }
@@ -48,11 +58,17 @@ public class ProjectSetUp : MonoBehaviour
 
     static class Assets
     {
-        public static void ImportAsset(string asset, string folder)
+        public static void ImportEssentialAsset(string asset, string folder)
         {
             var basePath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.ApplicationData);
             var assetsFolder = Combine(basePath, "Unity/Asset Store-5.x");
             ImportPackage(Combine(assetsFolder, folder, asset), false);
+        }
+
+        public static void ImportCustomAsset(string folder, string asset)
+        {
+            var assetPath = Combine(folder, asset);
+            ImportPackage(assetPath, false);
         }
     }
 
