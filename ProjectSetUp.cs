@@ -12,6 +12,15 @@ using static UnityEditor.AssetDatabase;
 
 public class ProjectSetUp : MonoBehaviour
 {
+    [MenuItem("Tools/Setup/Import Custom Assets")]
+    public static void ImportCustomAssets()
+    {
+        //Import from a custom folder
+        Assets.ImportCustomAsset("EditorShortcuts.unitypackage", "C:/Users/aaron/OneDrive/Documents/GitHub/UnityPackages/Custom");
+        Assets.ImportCustomAsset("OptionalStruct.unitypackage", "C:/Users/aaron/OneDrive/Documents/GitHub/UnityPackages/Custom");
+        Assets.ImportCustomAsset("VariableReferences.unitypackage", "C:/Users/aaron/OneDrive/Documents/GitHub/UnityPackages/Custom");
+    }
+
     [MenuItem("Tools/Setup/Import Essential Assets")]
     public static void ImportEssentialAssets()
     {
@@ -20,21 +29,13 @@ public class ProjectSetUp : MonoBehaviour
         Assets.ImportEssentialAsset("Odin Inspector and Serializer.unitypackage", "Sirenix/Editor ExtensionsSystem");
     }
 
-    [MenuItem("Tools/Setup/Import Custom Assets")]
-    public static void ImportCustomAssets()
-    {
-        //Import from a custom folder
-        Assets.ImportEssentialAsset("EditorShortcuts.unitypackage", "C:/Users/aaron/OneDrive/Documents/GitHub/UnityPackages/Custom");
-        Assets.ImportEssentialAsset("OptionalStruct.unitypackage", "C:/Users/aaron/OneDrive/Documents/GitHub/UnityPackages/Custom");
-        Assets.ImportEssentialAsset("VariableReferences.unitypackage", "C:/Users/aaron/OneDrive/Documents/GitHub/UnityPackages/Custom");
-    }
-
     [MenuItem("Tools/Setup/Install Essential Packages")]
     public static void InstallPackages()
     {
         Packages.InstallPackages(new[] {
             "git+https://gitlab.hotreload.net/root/hot-reload-releases.git#1.12.12",
             "git+https://github.com/starikcetin/Eflatun.SceneReference.git#4.1.1",
+            "git+https://github.com/YarnSpinnerTool/YarnSpinner-Unity.git#current",
             "git+https://github.com/KyleBanks/scene-ref-attribute",
             "git+https://github.com/uvivagabond/unity-bulk-rename",
             "com.unity.inputsystem"
