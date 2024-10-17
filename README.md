@@ -5,6 +5,7 @@ Custom: Packages that I've made myself or edited
   - Audio Manager is my current solution for handling Music and SFX within my games.
     - I plan on updating it, but it works perfectly as is, so go ahead and use it if you wish.
   - Editor Shortcuts are any tools I've found or written to make using Unity Editor easier.
+    - Will be updated intermittently.
   - Group Scene Loading is based on a Git-Amend YouTube video I've heavily edited for my systems.
     - I'd advise against downloading it in this state.
     - But if you do, you will need:
