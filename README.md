@@ -9,5 +9,10 @@ Custom: Packages that I've made myself or edited
   - Variable References is a collection of Structs made to hold value references based on this talk at Unite 2017 by Ryan Hipple (https://www.youtube.com/watch?v=raQ3iHhE_Kk). Supports Float, Int, Bool, Vector3, & GameObject currently. I plan to add more in the future as they are required by my systems.
 
 GitHub: Packages from repositories that are available via GitHub that I've packaged to make them easier to import or send to other people. 
+  - Auto Save saves scenes periodically at intervals decided by you in your project settings.
+  - Rename In Bulk allows you to rename multiple GameObject and Assets at the same time
+  - A-Star_Pathfinding is, well pathfinding, for 2D games
+  - Fungus is an older dialogue system with Unity Integration
+  - Yarn Spinner is a popular, more updated dialogue system with Unity Integration
 
 Project Set Up: My method of quickly setting up all the packages that I use in my projects. You can reconfigure it for your own purpose if you want.
