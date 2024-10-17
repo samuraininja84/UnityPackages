@@ -15,4 +15,4 @@ GitHub: Packages from repositories that are available via GitHub that I've packa
   - Fungus is an older dialogue system with Unity Integration
   - Yarn Spinner is a popular, more updated dialogue system with Unity Integration
 
-Project Set Up: My method of quickly setting up all the packages that I use in my projects. You can reconfigure it for your own purpose if you want.
+Project Set Up: My method of quickly setting up all the packages that I use in my projects. You can reconfigure it for your own purposes if you want.
