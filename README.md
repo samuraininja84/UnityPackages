@@ -6,7 +6,8 @@ Custom: Packages that I've made myself or edited
     - Will be updated intermittently.
   - Extendable Enums is precisely what it sounds like; it creates a list of Enums that you can customize through scripts or the inspector (based on how you modify it)
     - Essentially finished. I will be working on the Editor Window to add the ability to show the current list with a toggle so that you can edit it in the inspector.
-  - Game Events Listener is a Scriptable Object-based Event Subscription System that gets a list of references to Game Events Listeners that hold Events and raises all those events simultaneously when called through code.
+  - Game Events Listener is a Scriptable Object-based Event Subscription System.
+    - Gets a list of references to Game Events Listeners with a Game Event Scriptable Object that holds the active Listeners' responses and invokes them simultaneously when its Raise method is called.
     - Based on this talk at Unite 2017 by Ryan Hipple (https://www.youtube.com/watch?v=raQ3iHhE_Kk).
   - Group Scene Loading is based on a Git-Amend YouTube video I've heavily edited for my systems.
     - I'd advise against downloading it in this state.
