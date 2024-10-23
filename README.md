@@ -1,9 +1,9 @@
 Custom: Packages that I've made myself or edited
-  - The Area-Zone System is my custom method of handling Camera Movement and Variables that depend on where the Player is in a Scene.
+  - World Graph is my custom method of handling Scene Loading, Camera Movement, and Variables that depend on where the Player is in a Scene.
+  - Based on these videos by aartificial (https://www.youtube.com/watch?v=ZjfhGEziEEk&t=71s) and Sasquatch B Studios (https://www.youtube.com/watch?app=desktop&v=CQEqJ4TJzUk)
     - It is unfinished and currently a 2D-only system.
     - I'd advise against downloading it in this state.
-  - Audio Manager is my current solution for handling Music and SFX within my games.
-    - I plan on updating it, but it works perfectly as is, so go ahead and use it if you wish.
+  - Audio Manager is my current solution for handling Music and SFX within my games using Scriptable Objects as its base.
   - Editor Shortcuts are any tools I've found or written to make using Unity Editor easier.
     - Will be updated intermittently.
   - Group Scene Loading is based on a Git-Amend YouTube video I've heavily edited for my systems.
@@ -12,8 +12,8 @@ Custom: Packages that I've made myself or edited
       - This Repository: https://github.com/starikcetin/Eflatun.SceneReference.git#4.1.1
       - Odin Inspector: a paid tool, so you'll either need to buy it or remove the Odin Inspector References by hand.
         - I plan on eventually making an editor for this.
-  - Optional Struct is from this video by artificial: https://www.youtube.com/watch?v=uZmWgQ7cLNI
-  Thimble is a custom logging tool for Yarn Spinner that I wrote. Instructions are included in the package.
+  - Optional Struct is from this video by aartificial: https://www.youtube.com/watch?v=uZmWgQ7cLNI
+  - Thimble is a custom logging tool for Yarn Spinner that I wrote. Instructions are included in the package.
   - UI Tooling is a collection of UI editing tools for stylizing UI objects in Unity.
   - Variable References is a collection of Structs made to hold value references.
     - Based on this talk at Unite 2017 by Ryan Hipple (https://www.youtube.com/watch?v=raQ3iHhE_Kk).
