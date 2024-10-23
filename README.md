@@ -1,12 +1,13 @@
 Custom: Packages that I've made myself or edited
-  - Animation Curve Drawer creates Scriptable Objects that draw animation curves based on the input values. 
-    - It updates the inspector using OnValidate.
-    - Comes with Static Extension class for Creating,  Simulating, and Evaluating Animation Curves with code.
+  - Animation Curve Drawer creates Scriptable Objects that draw animation curves based on the input values. Updates in the inspector using OnValidate.
+    - It also has a Static Extension class for creating, calculating, and evaluating animation curves with code.
   - Audio Manager is my current solution for handling Music and SFX within my games using Scriptable Objects as its base.
   - Editor Shortcuts are any tools I've found or written to make using Unity Editor easier.
     - Will be updated intermittently.
   - Extendable Enums is precisely what it sounds like; it creates a list of Enums that you can customize through scripts or the inspector (based on how you modify it)
     - Essentially finished. I will be working on the Editor Window to add the ability to show the current list with a toggle so that you can edit it in the inspector.
+  - Game Events Listener is a Scriptable Object-based Event Subscription System that gets a list of references to Game Events Listeners that hold Events and raises all those events simultaneously when called through code.
+    - Based on this talk at Unite 2017 by Ryan Hipple (https://www.youtube.com/watch?v=raQ3iHhE_Kk).
   - Group Scene Loading is based on a Git-Amend YouTube video I've heavily edited for my systems.
     - I'd advise against downloading it in this state.
     - But if you do, you will need:
