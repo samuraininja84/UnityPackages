@@ -5,7 +5,7 @@ Custom: Packages that I've made myself or edited
   - Editor Shortcuts are any tools I've found or written to make using Unity Editor easier.
     - Will be updated intermittently.
   - Extendable Enums is precisely what it sounds like; it creates a list of Enums that you can customize through scripts or the inspector (based on how you modify it)
-    - Essentially finished. I will be working on the Editor Window to add the ability to show the current list with a toggle so that you can edit it in the inspector.
+    - Essentially finished. But in the future, I will be working on the Editor Window to add the ability to show the current list with a toggle so that you can edit it in the inspector.
   - Game Events Listener is a Scriptable Object-based Event Subscription System.
     - Gets a list of references to Game Events Listeners with a Game Event Scriptable Object that holds the active Listeners' responses and invokes them simultaneously when its Raise method is called.
     - Based on this talk at Unite 2017 by Ryan Hipple: https://www.youtube.com/watch?v=raQ3iHhE_Kk.
