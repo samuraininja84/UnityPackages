@@ -16,6 +16,8 @@ Custom: Packages that I've made myself or edited
       - Odin Inspector: a paid tool, so you'll either need to buy it or remove the Odin Inspector References by hand.
         - I plan on eventually making an editor for this.
   - Optional Struct is from this video by aartificial: https://www.youtube.com/watch?v=uZmWgQ7cLNI
+  - Serialized Interfaces is a property drawerthat allow interfaces and their derived classes to be viewed in the inspector
+    - From this video by Git-Amend: https://www.youtube.com/watch?v=xcGPr04Mgm4
   - Thimble is a custom logging tool for Yarn Spinner that I wrote. Instructions are included in the package.
   - UI Tooling is a collection of UI editing tools for stylizing UI objects in Unity.
   - Variable References is a collection of Structs made to hold value references.
