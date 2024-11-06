@@ -22,7 +22,7 @@ Custom: Packages that I've made myself or edited
     - Based on this talk at Unite 2017 by Ryan Hipple: https://www.youtube.com/watch?v=raQ3iHhE_Kk.
     - Supports Float, Int, Bool, Vector3, & GameObject currently.
     - I plan to add more in the future as my systems require them.
-  - World Graph is my custom method of handling Scene Loading, Camera Movement, and Variables that depend on where the Player is in a Scene.
+  - World Shaper is my custom method of handling Scene Loading, Camera Movement, and Variables that depend on where the Player is in a Scene.
     - Based on these videos:
       - aartificial: https://www.youtube.com/watch?v=ZjfhGEziEEk&t=71s
       - Sasquatch B Studios: https://www.youtube.com/watch?app=desktop&v=CQEqJ4TJzUk
