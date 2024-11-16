@@ -2,6 +2,7 @@ Custom: Packages that I've made myself or edited
   - Animation Curve Drawing creates Scriptable Objects that draw animation curves based on the input values. Updates in the inspector using OnValidate.
     - It also has a Static Extension class for creating, calculating, and evaluating animation curves with code.
   - Audio Manager is my current solution for handling Music and SFX within my games using Scriptable Objects as its base.
+  - Canvas Tools is a collection of UI editing tools for stylizing UI objects in Unity.
   - Editor Shortcuts are any tools I've found or written to make using Unity Editor easier.
     - Will be updated intermittently.
   - Effects 2D are a few of the Particles Systems that I've made for past games and their associated sounds.
@@ -20,7 +21,6 @@ Custom: Packages that I've made myself or edited
   - Serialized Interfaces is a property drawerthat allow interfaces and their derived classes to be viewed in the inspector
     - From this video by Git-Amend: https://www.youtube.com/watch?v=xcGPr04Mgm4
   - Thimble is a custom logging tool for Yarn Spinner that I wrote. Instructions are included in the package.
-  - Canvas Tools is a collection of UI editing tools for stylizing UI objects in Unity.
   - Variable References is a collection of Structs made to hold value references.
     - Based on this talk at Unite 2017 by Ryan Hipple: https://www.youtube.com/watch?v=raQ3iHhE_Kk.
     - Supports Float, Int, Bool, Vector3, & GameObject currently.
