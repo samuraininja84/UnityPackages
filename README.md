@@ -4,6 +4,7 @@ Custom: Packages that I've made myself or edited
   - Audio Manager is my current solution for handling Music and SFX within my games using Scriptable Objects as its base.
   - Editor Shortcuts are any tools I've found or written to make using Unity Editor easier.
     - Will be updated intermittently.
+  - Effects 2D are a few of the Particles Systems that I've made for past games and their associated sounds.
   - Extendable Enums is precisely what it sounds like; it creates a list of Enums that you can customize through scripts or the inspector (based on how you modify it)
     - Essentially finished. But in the future, I will be working on the Editor Window to add the ability to show the current list with a toggle so that you can edit it in the inspector.
   - Game Events Listener is a Scriptable Object-based Event Subscription System.
