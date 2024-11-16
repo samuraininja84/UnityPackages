@@ -5,7 +5,7 @@ Custom: Packages that I've made myself or edited
   - Canvas Tools is a collection of UI editing tools for stylizing UI objects in Unity.
   - Editor Shortcuts are any tools I've found or written to make using Unity Editor easier.
     - Will be updated intermittently.
-  - Effects 2D are a few of the Particles Systems that I've made for past games and their associated sounds.
+  - Effects 2D are a few particle systems I've made for past games and their associated sounds.
   - Extendable Enums is precisely what it sounds like; it creates a list of Enums that you can customize through scripts or the inspector (based on how you modify it)
     - Essentially finished. But in the future, I will be working on the Editor Window to add the ability to show the current list with a toggle so that you can edit it in the inspector.
   - Game Events Listener is a Scriptable Object-based Event Subscription System.
@@ -17,14 +17,19 @@ Custom: Packages that I've made myself or edited
       - This Repository: https://github.com/starikcetin/Eflatun.SceneReference.git#4.1.1
       - Odin Inspector: a paid tool, so you'll either need to buy it or remove the Odin Inspector References by hand.
         - I plan on eventually making an editor for this.
-  - Optional Struct is from this video by aartificial: https://www.youtube.com/watch?v=uZmWgQ7cLNI
-  - Serialized Interfaces is a property drawerthat allow interfaces and their derived classes to be viewed in the inspector
+  - Input Reader is a system that allows and blocks player controls based on the scenario, such as being in a cutscene.
+    - It is a very opinionated solution and will only work based on the controls you set up.
+    - It is not recommended to download it in its current state unless you want to kitbash it to work for your specific needs.
+  - ListToPopUp is an attribute that draws a list as an enum popup, similar to how Extendable Enums works.
+  - Optional Struct is from this video by aartificial: https://www.youtube.com/watch?v=uZmWgQ7cLNI.
+  - Save System is my first attempt at making a Save System In Unity; I will be working on this soon, so I wouldn't download this yet.
+  - Serialized Interfaces is a property drawer that allows interfaces and their derived classes to be viewed in the inspector
     - From this video by Git-Amend: https://www.youtube.com/watch?v=xcGPr04Mgm4
   - Thimble is a custom logging tool for Yarn Spinner that I wrote. Instructions are included in the package.
   - Variable References is a collection of Structs made to hold value references.
     - Based on this talk at Unite 2017 by Ryan Hipple: https://www.youtube.com/watch?v=raQ3iHhE_Kk.
     - Supports Float, Int, Bool, Vector3, & GameObject currently.
-    - I plan to add more in the future as my systems require them.
+    - I plan to add more as my systems require them.
   - World Shaper is my custom method of handling Scene Loading, Camera Movement, and Variables that depend on where the Player is in a Scene.
     - Based on these videos:
       - aartificial: https://www.youtube.com/watch?v=ZjfhGEziEEk&t=71s
