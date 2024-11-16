@@ -1,5 +1,5 @@
 Custom: Packages that I've made myself or edited
-  - Animation Curve Drawer creates Scriptable Objects that draw animation curves based on the input values. Updates in the inspector using OnValidate.
+  - Animation Curve Drawing creates Scriptable Objects that draw animation curves based on the input values. Updates in the inspector using OnValidate.
     - It also has a Static Extension class for creating, calculating, and evaluating animation curves with code.
   - Audio Manager is my current solution for handling Music and SFX within my games using Scriptable Objects as its base.
   - Editor Shortcuts are any tools I've found or written to make using Unity Editor easier.
