@@ -20,7 +20,7 @@ Custom: Packages that I've made myself or edited
   - Serialized Interfaces is a property drawerthat allow interfaces and their derived classes to be viewed in the inspector
     - From this video by Git-Amend: https://www.youtube.com/watch?v=xcGPr04Mgm4
   - Thimble is a custom logging tool for Yarn Spinner that I wrote. Instructions are included in the package.
-  - UI Tooling is a collection of UI editing tools for stylizing UI objects in Unity.
+  - Canvas Tools is a collection of UI editing tools for stylizing UI objects in Unity.
   - Variable References is a collection of Structs made to hold value references.
     - Based on this talk at Unite 2017 by Ryan Hipple: https://www.youtube.com/watch?v=raQ3iHhE_Kk.
     - Supports Float, Int, Bool, Vector3, & GameObject currently.
