@@ -41,6 +41,7 @@ GitHub: Packages from repositories that are available via GitHub that I've packa
   - A-Star_Pathfinding is, well pathfinding, for 2D games
   - Auto Save saves scenes periodically at intervals you decide in your project settings.
   - Editor Scene Loader creates a menu, organized via its file path, that allows you to load any scene in your project in seconds
+    - From this video by Scott___S: https://www.youtube.com/watch?v=_iEWvNyfkL0
   - Rename In Bulk allows you to rename multiple GameObject and Assets at the same time
   - Fungus is an older dialogue system with Unity Integration
   - Yarn Spinner is a popular, more updated dialogue system with Unity Integration
