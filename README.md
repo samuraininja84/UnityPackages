@@ -3,8 +3,6 @@ Custom: Packages that I've made myself or edited
     - It also has a Static Extension class for creating, calculating, and evaluating animation curves with code.
   - Audio Manager is my current solution for handling Music and SFX within my games using Scriptable Objects as its base.
   - Canvas Tools is a collection of UI editing tools for stylizing UI objects in Unity.
-  - Conditional Structs is a framework for setting up behaviors or interactions based on floats, ints, bools, and transform values.
-    - Built upon the system within the custom package "Variable References".
   - Editor Shortcuts are any tools I've found or written to make using Unity Editor easier.
     - Will be updated intermittently.
   - Effects 2D are a few particle systems I've made for past games and their associated sounds.
