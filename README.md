@@ -23,13 +23,13 @@ Custom: Packages that I've made myself or edited
         - I plan on eventually making an editor for this.
   - Input Reader is a system that allows and blocks player controls based on the scenario, such as being in a cutscene.
     - It is a very opinionated solution and will only work based on the controls you set up.
-    - It is not recommended to download it in its current state unless you want to kitbash it to work for your specific needs.
+    - It is only recommended to download it in its current state if you want to kitbash it to work for your specific needs.
   - ListToPopUp is an attribute that draws a list as an enum popup, similar to how Extendable Enums works.
   - Optional Struct is a wrapper struct that allows you to decide what to do with a variable/script based on whether it is enabled or disabled,
     - Based on these videos:
       - aartificial: https://www.youtube.com/watch?v=uZmWgQ7cLNI.
       - Git-Amend: https://www.youtube.com/watch?v=3xIB6zowVDM
-  - Save System is my first attempt at making a Save System In Unity; I will be working on this sooner or later, so I wouldn't download this yet.
+  - Save System is my first attempt at making a Save System In Unity; I will be working on this sooner or later, so I would wait to download this.
   - Serialized Interfaces is a property drawer that allows interfaces and their derived classes to be viewed in the inspector
     - From this video by Git-Amend: https://www.youtube.com/watch?v=xcGPr04Mgm4
   - Thimble is a custom logging tool for Yarn Spinner that I wrote. Instructions are included in the package.
@@ -42,8 +42,8 @@ Custom: Packages that I've made myself or edited
     - Based on these videos:
       - aartificial: https://www.youtube.com/watch?v=ZjfhGEziEEk&t=71s
       - Sasquatch B Studios: https://www.youtube.com/watch?app=desktop&v=CQEqJ4TJzUk
-    - It is unfinished and currently a 2D-only system.
-    - I'd advise against downloading it in this state.
+    - It is almost finished but is currently a 2D-only system; I will look into adding 3D Support.
+    - I'd advise against downloading it in this state, as there are no instructions yet.
 
 GitHub: Packages from repositories that are available via GitHub that I've packaged to make them easier to import or send to other people. 
   - A-Star_Pathfinding is, well pathfinding, for 2D games
