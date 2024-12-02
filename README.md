@@ -35,8 +35,9 @@ Custom: Packages that I've made myself or edited
   - Thimble is a custom logging tool for Yarn Spinner that I wrote. Instructions are included in the package.
   - Variable References is a collection of Structs / Scriptable Objects made to hold value references.
     - Based on this talk at Unite 2017 by Ryan Hipple: https://www.youtube.com/watch?v=raQ3iHhE_Kk.
-    - Supports Float, Int, String, Bool, Transform, & Vector3 and Includes Conditional Structs:
+    - Includes Conditional Structs:
         - Framework for setting up behaviors or interactions based on floats, ints, bools, and transform values.
+    - Supports Float, Int, String, Bool, Transform, & Vector3
   - World Shaper is my custom method of handling Scene Loading, Camera Movement, and Variables that depend on where the Player is in a Scene.
     - Based on these videos:
       - aartificial: https://www.youtube.com/watch?v=ZjfhGEziEEk&t=71s
