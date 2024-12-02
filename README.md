@@ -3,9 +3,13 @@ Custom: Packages that I've made myself or edited
     - It also has a Static Extension class for creating, calculating, and evaluating animation curves with code.
   - Audio Manager is my current solution for handling Music and SFX within my games using Scriptable Objects as its base.
   - Canvas Tools is a collection of UI editing tools for stylizing UI objects in Unity.
+  - Conditional Structs is a framework for setting up behaviors or interactions based on floats, ints, bools, and transform values.
+    - Built upon the system within the custom package "Variable References".
   - Editor Shortcuts are any tools I've found or written to make using Unity Editor easier.
     - Will be updated intermittently.
   - Effects 2D are a few particle systems I've made for past games and their associated sounds.
+  - Either Struct is a generic struct for setting up two actions based on the variables/scripts you pass through.
+    - Slightly edited from this video by Git-Amend: https://www.youtube.com/watch?v=3xIB6zowVDM
   - Extendable Enums is precisely what it sounds like; it creates a list of Enums that you can customize through scripts or the inspector (based on how you modify it)
     - Essentially finished. But in the future, I will be working on the Editor Window to add the ability to show the current list with a toggle so that you can edit it in the inspector.
   - Game Events Listener is a Scriptable Object-based Event Subscription System.
@@ -21,12 +25,15 @@ Custom: Packages that I've made myself or edited
     - It is a very opinionated solution and will only work based on the controls you set up.
     - It is not recommended to download it in its current state unless you want to kitbash it to work for your specific needs.
   - ListToPopUp is an attribute that draws a list as an enum popup, similar to how Extendable Enums works.
-  - Optional Struct is from this video by aartificial: https://www.youtube.com/watch?v=uZmWgQ7cLNI.
+  - Optional Struct is a wrapper struct that allows you to decide what to do with a variable/script based on if it is enabled or disabled,
+    - Based on these videos:
+      - aartificial: https://www.youtube.com/watch?v=uZmWgQ7cLNI.
+      - Git-Amend: https://www.youtube.com/watch?v=3xIB6zowVDM
   - Save System is my first attempt at making a Save System In Unity; I will be working on this soon, so I wouldn't download this yet.
   - Serialized Interfaces is a property drawer that allows interfaces and their derived classes to be viewed in the inspector
     - From this video by Git-Amend: https://www.youtube.com/watch?v=xcGPr04Mgm4
   - Thimble is a custom logging tool for Yarn Spinner that I wrote. Instructions are included in the package.
-  - Variable References is a collection of Structs made to hold value references.
+  - Variable References is a collection of Structs / Scriptable Objects made to hold value references.
     - Based on this talk at Unite 2017 by Ryan Hipple: https://www.youtube.com/watch?v=raQ3iHhE_Kk.
     - Supports Float, Int, Bool, Vector3, & GameObject currently.
     - I plan to add more as my systems require them.
