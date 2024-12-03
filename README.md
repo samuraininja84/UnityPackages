@@ -1,6 +1,8 @@
 Custom: Packages that I've made myself or edited
   - Animation Curve Drawing creates Scriptable Objects that draw animation curves based on the input values. Updates in the inspector using OnValidate.
     - It also has a Static Extension class for creating, calculating, and evaluating animation curves with code.
+  - Attributes are a few of the custom scripts for setting up customs inspector tools
+    - Includes: Serialized Interfaces & Types and ListToPopUp
   - Audio Manager is my current solution for handling Music and SFX within my games using Scriptable Objects as its base.
   - Canvas Tools is a collection of UI editing tools for stylizing UI objects in Unity.
   - Editor Shortcuts are any tools I've found or written to make using Unity Editor easier.
