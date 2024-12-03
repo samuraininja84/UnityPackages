@@ -27,9 +27,13 @@ Custom: Packages that I've made myself or edited
   - ListToPopUp is an attribute that draws a list as an enum popup, similar to how Extendable Enums works.
   - Optional Struct is a wrapper struct that allows you to decide what to do with a variable/script based on whether it is enabled or disabled,
     - Based on these videos:
-      - aartificial: https://www.youtube.com/watch?v=uZmWgQ7cLNI.
+      - aartificial: https://www.youtube.com/watch?v=uZmWgQ7cLNI
       - Git-Amend: https://www.youtube.com/watch?v=3xIB6zowVDM
-  - Save System is my first attempt at making a Save System In Unity; I will be working on this sooner or later, so I would wait to download this.
+  - Save Streamer is my WIP solution for saving and loading game data. It is mostly untested and needs a bit of work.
+    - Includes Optional Struct and Serializable Types from Attributes.
+    - Based on these videos:
+      - Sasquatch B Studios: https://www.youtube.com/watch?v=1mf730eb5Wo
+      - Git-Amend: https://www.youtube.com/watch?v=z1sMhGIgfoo & https://www.youtube.com/watch?v=a62D6IiVMTw&t=454s
   - Serialized Interfaces is a property drawer that allows interfaces and their derived classes to be viewed in the inspector
     - From this video by Git-Amend: https://www.youtube.com/watch?v=xcGPr04Mgm4
   - Thimble is a custom logging tool for Yarn Spinner that I wrote. Instructions are included in the package.
