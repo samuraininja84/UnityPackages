@@ -3,6 +3,11 @@ Custom: Packages that I've made myself or edited
     - It also has a Static Extension class for creating, calculating, and evaluating animation curves with code.
   - Attributes are a few of the custom scripts for setting up customs inspector tools
     - Includes: Serialized Interfaces & Types and ListToPopUp
+      - Serialized Interfaces is a property drawer that allows interfaces and their derived classes to be viewed in the inspector
+        - From this video by Git-Amend: https://www.youtube.com/watch?v=xcGPr04Mgm4
+      - Serialized Types is a class with a property drawer that allows the inspector to view derived classes as an enum to decide behavior or quickly switch a script's state.
+        - From this video by Git-Amend: https://www.youtube.com/watch?v=a62D6IiVMTw&t=454s
+      - ListToPopUp is an attribute that draws a list as an enum popup, similar to how Extendable Enums works.
   - Audio Manager is my current solution for handling Music and SFX within my games using Scriptable Objects as its base.
   - Canvas Tools is a collection of UI editing tools for stylizing UI objects in Unity.
   - Editor Shortcuts are any tools I've found or written to make using Unity Editor easier.
@@ -24,16 +29,15 @@ Custom: Packages that I've made myself or edited
   - Input Reader is a system that allows and blocks player controls based on the scenario, such as being in a cutscene.
     - It is a very opinionated solution and will only work based on the controls you set up.
     - It is only recommended to download it in its current state if you want to kitbash it to work for your specific needs.
-  - ListToPopUp is an attribute that draws a list as an enum popup, similar to how Extendable Enums works.
   - Optional Struct is a wrapper struct that allows you to decide what to do with a variable/script based on whether it is enabled or disabled,
     - Based on these videos:
       - aartificial: https://www.youtube.com/watch?v=uZmWgQ7cLNI
       - Git-Amend: https://www.youtube.com/watch?v=3xIB6zowVDM
-  - Save Streamer is my WIP solution for saving and loading game data. It is mostly untested and needs a bit of work.
+  - Save Streamer is my WIP solution for saving and loading game data. It is mostly untested and needs some work.
     - Includes Optional Struct and Serializable Types from Attributes.
     - Based on these videos:
       - Sasquatch B Studios: https://www.youtube.com/watch?v=1mf730eb5Wo
-      - Git-Amend: https://www.youtube.com/watch?v=z1sMhGIgfoo & https://www.youtube.com/watch?v=a62D6IiVMTw&t=454s
+      - Git-Amend: https://www.youtube.com/watch?v=z1sMhGIgfoo
   - Thimble is a custom logging tool for Yarn Spinner that I wrote. Instructions are included in the package.
   - Variable References is a collection of Structs / Scriptable Objects made to hold value references.
     - Based on this talk at Unite 2017 by Ryan Hipple: https://www.youtube.com/watch?v=raQ3iHhE_Kk.
