@@ -34,8 +34,6 @@ Custom: Packages that I've made myself or edited
     - Based on these videos:
       - Sasquatch B Studios: https://www.youtube.com/watch?v=1mf730eb5Wo
       - Git-Amend: https://www.youtube.com/watch?v=z1sMhGIgfoo & https://www.youtube.com/watch?v=a62D6IiVMTw&t=454s
-  - Serialized Interfaces is a property drawer that allows interfaces and their derived classes to be viewed in the inspector
-    - From this video by Git-Amend: https://www.youtube.com/watch?v=xcGPr04Mgm4
   - Thimble is a custom logging tool for Yarn Spinner that I wrote. Instructions are included in the package.
   - Variable References is a collection of Structs / Scriptable Objects made to hold value references.
     - Based on this talk at Unite 2017 by Ryan Hipple: https://www.youtube.com/watch?v=raQ3iHhE_Kk.
