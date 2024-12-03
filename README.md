@@ -5,6 +5,8 @@ Custom: Packages that I've made myself or edited
     - Includes: Serialized Interfaces & Types and ListToPopUp
       - Serialized Interfaces is a property drawer that allows interfaces and their derived classes to be viewed in the inspector
         - From this video by Git-Amend: https://www.youtube.com/watch?v=xcGPr04Mgm4
+      - Serialized Types is a class with a property drawer that allows the inspector to view derived classes as an enum to decide behavior or quickly switch a script's state.
+        - From this video by Git-Amend: https://www.youtube.com/watch?v=a62D6IiVMTw&t=454s
       - ListToPopUp is an attribute that draws a list as an enum popup, similar to how Extendable Enums works.
   - Audio Manager is my current solution for handling Music and SFX within my games using Scriptable Objects as its base.
   - Canvas Tools is a collection of UI editing tools for stylizing UI objects in Unity.
@@ -31,11 +33,11 @@ Custom: Packages that I've made myself or edited
     - Based on these videos:
       - aartificial: https://www.youtube.com/watch?v=uZmWgQ7cLNI
       - Git-Amend: https://www.youtube.com/watch?v=3xIB6zowVDM
-  - Save Streamer is my WIP solution for saving and loading game data. It is mostly untested and needs a bit of work.
+  - Save Streamer is my WIP solution for saving and loading game data. It is mostly untested and needs some work.
     - Includes Optional Struct and Serializable Types from Attributes.
     - Based on these videos:
       - Sasquatch B Studios: https://www.youtube.com/watch?v=1mf730eb5Wo
-      - Git-Amend: https://www.youtube.com/watch?v=z1sMhGIgfoo & https://www.youtube.com/watch?v=a62D6IiVMTw&t=454s
+      - Git-Amend: https://www.youtube.com/watch?v=z1sMhGIgfoo
   - Thimble is a custom logging tool for Yarn Spinner that I wrote. Instructions are included in the package.
   - Variable References is a collection of Structs / Scriptable Objects made to hold value references.
     - Based on this talk at Unite 2017 by Ryan Hipple: https://www.youtube.com/watch?v=raQ3iHhE_Kk.
