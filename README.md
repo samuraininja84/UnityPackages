@@ -1,4 +1,4 @@
-Custom: Packages that I've made myself or edited
+# Custom: Packages that I've made myself or edited
   - Animation Curve Drawing creates Scriptable Objects that draw animation curves based on the input values. Updates in the inspector using OnValidate.
     - It also has a Static Extension class for creating, calculating, and evaluating animation curves with code.
   - Attributes are a few of the custom scripts for setting up customs inspector tools
@@ -26,13 +26,13 @@ Custom: Packages that I've made myself or edited
       - This Repository: https://github.com/starikcetin/Eflatun.SceneReference.git#4.1.1
       - Odin Inspector: a paid tool, so you'll either need to buy it or remove the Odin Inspector References by hand.
         - I plan on eventually making an editor for this.
-  - Input Reader is a system that allows and blocks player controls based on the scenario, such as being in a cutscene.
-    - It is a very opinionated solution and will only work based on the controls you set up.
-    - It is only recommended to download it in its current state if you want to kitbash it to work for your specific needs.
   - Optional Struct is a wrapper struct that allows you to decide what to do with a variable/script based on whether it is enabled or disabled,
     - Based on these videos:
       - aartificial: https://www.youtube.com/watch?v=uZmWgQ7cLNI
       - Git-Amend: https://www.youtube.com/watch?v=3xIB6zowVDM
+  - Puppeteer is a system that allows and blocks player controls based on the scenario, such as being in a cutscene.
+    - It is a very opinionated solution and will only work based on the controls you set up.
+    - It is only recommended to download it in its current state if you want to kitbash it to work for your specific needs.
   - Save Streamer is my WIP solution for saving and loading game data. It is mostly untested and needs some work.
     - Includes Optional Struct and Serializable Types from Attributes.
     - Based on these videos:
