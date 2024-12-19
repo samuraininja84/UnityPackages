@@ -13,6 +13,7 @@
   - Editor Shortcuts are any tools I've found or written to make using Unity Editor easier.
     - Will be updated intermittently.
   - Effects 2D are a few particle systems I've made for past games and their associated sounds.
+  - Effects 3D is a shader set-up for HDRP outlines.
   - Either Struct is a generic struct for setting up two actions based on the variables/scripts you pass through.
     - Slightly edited from this video by Git-Amend: https://www.youtube.com/watch?v=3xIB6zowVDM
   - Extendable Enums is precisely what it sounds like; it creates a list of Enums that you can customize through scripts or the inspector (based on how you modify it)
