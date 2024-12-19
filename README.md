@@ -8,8 +8,10 @@
       - Serialized Types is a class with a property drawer that allows the inspector to view derived classes as an enum to decide behavior or quickly switch a script's state.
         - From this video by Git-Amend: https://www.youtube.com/watch?v=a62D6IiVMTw&t=454s
       - ListToPopUp is an attribute that draws a list as an enum popup, similar to how Extendable Enums works.
-  - Audio Manager is my current solution for handling Music and SFX within my games using Scriptable Objects as its base.
   - Canvas Tools is a collection of UI editing tools for stylizing UI objects in Unity.
+  - Conductor is my current solution for handling Music and SFX within my games using Scriptable Objects as its base.
+    - Includes: Set Up and Examples for a Rhythm game
+      - Based on this video by b3agz: https://www.youtube.com/watch?v=gIjajeyjRfE&t=790s
   - Editor Shortcuts are any tools I've found or written to make using Unity Editor easier.
     - Will be updated intermittently.
   - Effects 2D are a few particle systems I've made for past games and their associated sounds.
