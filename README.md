@@ -34,14 +34,15 @@
       - aartificial: https://www.youtube.com/watch?v=uZmWgQ7cLNI
       - Git-Amend: https://www.youtube.com/watch?v=3xIB6zowVDM
   - Puppeteer is a system that allows and blocks player controls based on the scenario, such as being in a cutscene.
-    - It is a very opinionated solution and will only work based on the controls you set up.
-    - It is only recommended to download it in its current state if you want to kitbash it to work for your specific needs.
-  - Save Streamer is my WIP solution for saving and loading game data. It is mostly untested and needs some work.
+    - More Instructions can be found here: https://github.com/samuraininja84/Puppeteer
+    - Based on this video by aartificial: https://www.youtube.com/watch?v=pOEyYwKtHJo
+  - Save Streamer is my WIP solution for saving and loading game data. It currently needs a bit of work, but it's almost done.
     - Includes Optional Struct and Serializable Types from Attributes.
     - Based on these videos:
       - Sasquatch B Studios: https://www.youtube.com/watch?v=1mf730eb5Wo
       - Git-Amend: https://www.youtube.com/watch?v=z1sMhGIgfoo
-  - Thimble is a custom logging tool for Yarn Spinner that I wrote. Instructions are included in the package.
+  - Thimble is a custom logging & debugging tool for Yarn Spinner.
+    - Instructions are included in the package and can also be found here: https://github.com/samuraininja84/Thimble
   - Variable References is a collection of Structs / Scriptable Objects made to hold value references.
     - Based on this talk at Unite 2017 by Ryan Hipple: https://www.youtube.com/watch?v=raQ3iHhE_Kk.
     - Includes Conditional Structs:
